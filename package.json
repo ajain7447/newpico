@@ -1,0 +1,27 @@
+{
+  "name": "project-pico",
+  "version": "1.0.0",
+  "description": "Adventures of Pico",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjolewis/Project-Pico.git"
+  },
+  "author": "Michael Lewis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjolewis/Project-Pico/issues"
+  },
+  "homepage": "https://github.com/mjolewis/Project-Pico#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
