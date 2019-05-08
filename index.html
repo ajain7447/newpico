@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <!-- endbuild -->
 
@@ -25,37 +26,65 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand d-flex justify-content-center mr-0 mr-sm-3" href="#"> Project Pico</a>
+            <a class="navbar-brand text-center mr-0 mr-sm-3" href="#"> Project Pico</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <div class="navbar-nav mr-auto">
-                    <a class="nav-item nav-link active" href="#"><span class="fa fa-home fa-lg"> Home</span></a>
-                    <a class="nav-item nav-link" href="photos.html"><span class="fa fa-photo fa-lg"> Photos</span></a>
-                    <a class="nav-item nav-link" href="Pico's Picks.html"><span class="fa fa-thumbs-o-up fa-lg"> Pico's Picks</span></a>
-                    <a class="nav-item nav-link" href="about.html"><span class="fa fa-info fa-lg"> About</span></a>
-                    <a class="nav-item nav-link" href="contact.html"><span class="fa fa-address-card fa-lg"> Contact</span></a>
+                    <a class="nav-item nav-link active" href="#"><span class="fa fa-home fa-lg"></span> Home</a>
+                    <a class="nav-item nav-link" href="photos.html"><span class="fa fa-photo fa-lg"></span> Photos</a>
+                    <a class="nav-item nav-link" href="Pico's Picks.html"><span class="fa fa-thumbs-o-up fa-lg"></span> Pico's Picks</a>
+                    <a class="nav-item nav-link" href="about.html"><span class="fa fa-info fa-lg"></span> About</a>
+                    <a class="nav-item nav-link" href="contact.html"><span class="fa fa-address-card fa-lg"></span> Contact</a>
                 </div>
             </div>
-
             <span class="navbar-text">
-                <a class="nav-item nav-link" href="#" role="button" id="signIn"><span class="fa fa-sign-in fa-lg"></span> Login</a>
+                <a class="nav-item nav-link p-0" href="#" role="button" data-toggle="modal" data-target="#signIn"><span class="fa fa-sign-in fa-lg"></span> Login</a>
             </span> 
         </div> <!-- container -->
     </nav> <!-- navbar -->
 
     <!-- Modal -->
-    <div>
-
+    <div class="modal fade" tabindex="-1" role="dialog" id="signIn">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Login</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row align-items-center">
+                            <div class="col-4">
+                                <input class="form-control" type="email" placeholder="Email">
+                            </div>
+                            <div class="col-4">
+                                <input class="form-control" type="password" placeholder="Password">
+                            </div>
+                            <div class="col-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="rememberMe"> Remember Me</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button class="btn btn-secondary ml-auto" type="button" data-dismiss="modal">Close</button>
+                            <button class="btn btn-primary ml-1" type="submit">Login</button>
+                        </div>
+                    </form>
+                </div> <!-- Modal-body -->
+            </div> <!-- Modal-content -->
+        </div> <!-- Modal-dialog -->
     </div> <!-- Modal -->
 
     <!-- Header -->
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 d-flex justify-content-center align-content-center">
-                    <h1>Project Pico</h1>
-                </div>
-                <div class="col-12 d-flex justify-content-center">
-                    <h6>The life and times of the world's cutest Frenchie</h6>
+                <div class="col-12">
+                    <h1 class="text-center">Project Pico</h1>
+                    <h6 class="text-center">The life and times of the world's cutest Frenchie</h6>
                 </div>
             </div>
         </div>
@@ -63,15 +92,12 @@
 
     <div class="container">
         <div class="row row-content">
-            <div class="col-12 d-flex justify-content-center">
-                <h3>Why Project Pico?</h3>
-            </div>
-            <div class="col-12 d-flex justify-content-center">
-                <p>Because even though he likes goose poop all 8.5 pounds of this is pretty darn cute</p>
+            <div class="col-12">
+                <h3 class="text-center">Why Project Pico?</h3>
+                <p class="text-center">Because even though he likes goose poop all 8.5 pounds of him are pretty darn cute</p>
             </div>
         </div>
-    </div>
-
+    </div> <!--Container -->
 
     <!-- Footer -->
     <footer>
