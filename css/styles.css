@@ -1,7 +1,26 @@
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  background-color: #fafafa; }
+
+.copyright {
+  color: #999;
+  font-size: .9em;
+  text-align: right; }
+
+.text-dark {
+  color: dark-text;
+  font-size: .9em; }
+
+.background-main {
+  color: #343a40 !important; }
+
+.background-color {
+  background-color: #ffffff; }
+
+.border-sides {
+  border: 1px ridge; }
 
 .row-header {
   margin: 0px;
@@ -16,12 +35,20 @@ body {
 
 .footer {
   margin: 0px;
-  padding: 20px 0px; }
+  padding: 40px 0px; }
+
+.body-margin {
+  margin-top: 60px; }
 
 .jumbotron {
   margin: 0px;
   padding: 75px 30px;
-  background-color: #F9F9F9; }
+  border-bottom: 1px ridge; }
+
+.modal {
+  max-width: 100%; }
+  .modal .modal-dialog {
+    top: 15%; }
 
 .modal-header {
   background-color: #343a40 !important;
@@ -30,4 +57,18 @@ body {
     color: floralwhite; }
 
 .modal-body, .modal-footer {
-  background-color: #F9F9F9; }
+  background-color: #fafafa; }
+
+.modal-format {
+  margin-left: 50px;
+  margin-right: 50px; }
+  .modal-format div {
+    margin-bottom: 10px; }
+
+.block {
+  display: block;
+  width: 100%;
+  text-align: center; }
+
+.fa {
+  font-size: 24px; }
