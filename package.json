@@ -40,10 +40,10 @@
     "usemin-cli": "^0.5.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
     "bootstrap": "^4.3.1",
     "bootstrap-social": "^5.1.1",
     "copyfiles": "^2.1.0",
-    "font-awesome": "^4.7.0",
     "imagemin": "^3.0.0",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"

@@ -9,6 +9,11 @@ body {
   font-size: .9em;
   text-align: right; }
 
+.signature {
+  color: #999;
+  font-size: .9em;
+  text-align: center; }
+
 .text-dark {
   color: dark-text;
   font-size: .9em; }
@@ -70,5 +75,22 @@ body {
   width: 100%;
   text-align: center; }
 
-.fa {
-  font-size: 24px; }
+.card-style {
+  margin-top: 10px; }
+
+.carousel {
+  background: #343a40 !important; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      min-height: 300px; }
+
+#pauseButton {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  outline: none; }

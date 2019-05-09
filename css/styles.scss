@@ -6,6 +6,8 @@ $text-dark: #003569;
 $text-copyright: #999;
 $border: 1px ridge;
 $font-main: 'Roboto', sans-serif;
+$carousel-height: 300px;
+$carousel-width: 100%;
 
 
 body {
@@ -19,6 +21,12 @@ body {
     color: $text-copyright;
     font-size: .9em;
     text-align: right;
+}
+
+.signature {
+    color: $text-copyright;
+    font-size: .9em;
+    text-align: center;
 }
 
 .text-dark {
@@ -102,6 +110,29 @@ border-bottom: $border;
     text-align: center;
 }
 
-.fa {
-    font-size: 24px;
+.card-style {
+    margin-top: 10px;
+}
+
+.carousel {
+    background: $background-dark;
+    
+    .carousel-item {
+        height: $carousel-height;
+
+        img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            min-height: $carousel-height;
+        }
+    }
+}
+
+#pauseButton {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 10;
+    outline: none;
 }
