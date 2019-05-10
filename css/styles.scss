@@ -110,21 +110,36 @@ border-bottom: $border;
     text-align: center;
 }
 
-.card-style {
-    margin-top: 10px;
+.card {
+
+    .card-title {
+        margin-top: 10px;
+    }
+    
+    .card-text {
+        margin: 0px 2px 12px 2px;
+    }
 }
 
 .carousel {
     background: $background-dark;
+
     
     .carousel-item {
         height: $carousel-height;
-
+        
         img {
-            position: absolute;
+            position: relative;
             top: 0px;
             left: 0px;
             min-height: $carousel-height;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            width: 500px;
+            top: 25%;
+            left: 39%;
         }
     }
 }
