@@ -113,12 +113,24 @@ border-bottom: $border;
 .card {
 
     .card-title {
-        margin-top: 10px;
+        text-align: center;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .card-title {
+        margin: 15px 2px;
     }
     
     .card-text {
-        margin: 0px 2px 12px 2px;
+        margin: 0px 2px 15px 2px;
     }
+}
+
+.card-deck {
+    margin-bottom: 25px;
 }
 
 .carousel {

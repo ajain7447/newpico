@@ -76,10 +76,19 @@ body {
   text-align: center; }
 
 .card .card-title {
-  margin-top: 10px; }
+  text-align: center; }
+
+.card .card-body {
+  text-align: center; }
+
+.card .card-title {
+  margin: 15px 2px; }
 
 .card .card-text {
-  margin: 0px 2px 12px 2px; }
+  margin: 0px 2px 15px 2px; }
+
+.card-deck {
+  margin-bottom: 25px; }
 
 .carousel {
   background: #343a40 !important; }
