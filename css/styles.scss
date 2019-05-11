@@ -133,6 +133,12 @@ border-bottom: $border;
     margin-bottom: 25px;
 }
 
+.photo-size {
+    height: 400px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
 .carousel {
     background: $background-dark;
 

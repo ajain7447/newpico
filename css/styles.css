@@ -90,6 +90,11 @@ body {
 .card-deck {
   margin-bottom: 25px; }
 
+.photo-size {
+  height: 400px;
+  margin-bottom: 25px;
+  overflow: hidden; }
+
 .carousel {
   background: #343a40 !important; }
   .carousel .carousel-item {
