@@ -13,9 +13,9 @@
     "watch:all": "concurrently \"npm run watch:scss\" \"npm run lite\"",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
-    "imagemin": "imagemin img/* dist/img/",
+    "imagemin": "imagemin img/* -o dist/img",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html &&  usemin photos.html -d dist --htmlmin -o dist/photos.html && usemin \"Pico's Picks.html\" -d dist --htmlmin -o dist/\"Pico's Picks.html\" && usemin about.html -d dist --htmlmin -o dist/about.html && usemin contact.html -d dist --htmlmin -o dist/contact.html",
-    "build": "npm run clean && npm run copyfonts && npm run usemin && npm run imagemin"
+    "build": "npm run clean && npm run copyfonts && npm run imagemin && npm run usemin"
   },
   "repository": {
     "type": "git",
